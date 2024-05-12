@@ -54,7 +54,6 @@ jobs:
       shell: bash
       working-directory: lab_4/hello_world_application
       
-      S
     - name: Build a *solver* application
       run: |
         cmake -H. -B_build
@@ -65,4 +64,4 @@ jobs:
 
 2. Смотрим на результаты работы `GitHub Actions` во вкладке `Actions`.
 
-![Screenshot](screenshots/screenshot_1.png)
+![Screenshot](./screenshots/screenshot_1.png)
