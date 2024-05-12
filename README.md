@@ -64,4 +64,4 @@ jobs:
 
 2. Смотрим на результаты работы `GitHub Actions` во вкладке `Actions`.
 
-![Screenshot](./screenshots/screenshot_1.png)
+![Screenshot](./screenshots/screenshot1.png)
