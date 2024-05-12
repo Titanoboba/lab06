@@ -9,7 +9,7 @@
 
 
 ```bash
-
+mkdir formatter_lib
 cd formatter_lib
 
 code-oss CMakeLists.txt
@@ -43,7 +43,7 @@ cmake --build .
 ```bash
 
 cd ..
-cd ../formatter_ex_lib
+mkdir formatter_ex_lib && cd formatter_ex_lib
 code-oss CMakeLists.txt 
 ```
 
@@ -75,7 +75,8 @@ cmake --build .
 
 
 ```bash
-cd ../hello_world_application
+cd ../
+mkdir hello_world_application && cd hello_world_application
 code-oss CMakeLists.txt
 ```
 
@@ -108,7 +109,8 @@ cmake --build .
 * *solver*, приложение которое испольует статические библиотеки *formatter_ex* и *solver_lib*.
 
 ```bash
-cd ../solver_application
+cd ../
+mkdir solver_application && cd solver_application
 code-oss CMakeLists.txt
 ```
 
